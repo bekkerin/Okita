@@ -9,7 +9,7 @@ public class Types : MonoBehaviour {
     // inheritance allows multiple classes to share common attributes and behaviors. For instance, both humans and dogs can share a movement controller script.
     // aggregation means that you can combine multiple classes into a single class. 
     // you still need to associate a  script with one or more objects before you can use it. Simpley drag the script from the assets to the inspector, or use "add component". 
-    //Don't forget to save the script before you try to use the new version.
+    //Don't forget to save the script before you try to use the new version.   
     // the sphere's location is a variable called the transform.position.//to make it easier to find a "lost" object: select it in the hierarchy, right click on the transform, and click Reset. It brings it back to the center of the world (0,0,0).
     //the 
 
