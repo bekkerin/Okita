@@ -7,7 +7,7 @@ public class Parent : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
-		//ChildAbility();  //try uncommenting this and you see that it produces an error because parents cannot inherit from their children.    Error CS0103  The name 'ChildAbility' does not exist in the current context 
+		ChildAbility();  //try uncommenting this and you see that it produces an error because parents cannot inherit from their children.    Error CS0103  The name 'ChildAbility' does not exist in the current context 
 
 
     }

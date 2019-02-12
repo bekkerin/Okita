@@ -11,7 +11,7 @@ using System.Collections;
 
 
 public class Example : MonoBehaviour {
-	//Declare a nested class. this is what the book calls this. Is it not actually declaring objects of the Class type in the Start function?	
+	//Declare a nested class. this is what the book calls this. 
 
         //functions and data members can appear in any order, but it's good practice to declare variables close to where they are used. 
 	class MyClass {         //the base class declaration
@@ -28,7 +28,7 @@ public class Example : MonoBehaviour {
         //declare the three objects and assign them a number
 		MyClass FirstClass = new MyClass();
         //try to start typing FirstClass. to see dropdown
-        //FirstCla
+        //FirstClas
 		FirstClass.num = 1; 
 		MyClass SecondClass = new MyClass();
 		SecondClass.num = 2; 

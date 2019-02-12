@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{1417D4C9-4A10-791F-A911-49D759C0B788}</ProjectGuid>
+    <ProjectGuid>{BB382515-810E-6D89-0AD1-FDA7A4D3BA43}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -65,16 +65,16 @@
     <Compile Include="Assets\ReturnZombie.cs" />
     <Compile Include="Assets\Zombie.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>H:/OneDrive/Research/_virtual reality/Unity projects/_textbook/0507JumpStatements/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/ernst/Desktop/GitHub/Okita/217JumpStatements/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>H:/OneDrive/Research/_virtual reality/Unity projects/_textbook/0507JumpStatements/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/ernst/Desktop/GitHub/Okita/217JumpStatements/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>H:/OneDrive/Research/_virtual reality/Unity projects/_textbook/0507JumpStatements/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/ernst/Desktop/GitHub/Okita/217JumpStatements/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>H:/OneDrive/Research/_virtual reality/Unity projects/_textbook/0507JumpStatements/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/ernst/Desktop/GitHub/Okita/217JumpStatements/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -255,6 +255,9 @@
     </Reference>
     <Reference Include="Unity.Locator">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>C:/Users/ernst/Desktop/GitHub/Okita/217JumpStatements/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
