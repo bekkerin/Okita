@@ -13,7 +13,7 @@ public class ZombieSpawner : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		if (Zombie.numZombies < 4)
+		if (Zombie.numZombies < 4)//
 		{
 			GameObject go = GameObject.CreatePrimitive(PrimitiveType.Capsule);
 			go.AddComponent(typeof(Zombie));

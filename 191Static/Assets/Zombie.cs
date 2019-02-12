@@ -27,7 +27,7 @@ public class Zombie : MonoBehaviour
 
 		float distance = (player.transform.position - transform.position).magnitude;
 
-		Vector3 move = transform.position + (direction * speed);
+		Vector3 move = transform.position + (direction * speed);// direction is a vector, speed the multiplier
 		transform.position = move;
 
 		if (distance < 1f)
@@ -38,6 +38,19 @@ public class Zombie : MonoBehaviour
 		{
 			numZombies--;
 			Destroy(gameObject);
-		}
+            // DESTROY IS A FUNCTION BUILT INTO MONOBEHAVIOR. DEFINITION:
+            //        // Summary:
+            //     Removes a gameobject, component or asset.
+            //
+            // Parameters:
+            //   obj:
+            //     The object to destroy.
+            //
+            //   t:
+            //     The optional amount of time to delay before destroying the object.
+            //[ExcludeFromDocs]
+            //public static void Destroy(Object obj);
+
+}
 	}
 }
