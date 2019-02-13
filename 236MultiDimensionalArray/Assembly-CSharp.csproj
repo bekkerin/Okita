@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{1FE8E627-35F1-D0A1-F6EE-4812280FCDC6}</ProjectGuid>
+    <ProjectGuid>{5F1BBA5A-7976-0352-26B5-E3131CB0EDC6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,16 +63,16 @@
   <ItemGroup>
     <Compile Include="Assets\MultiDimensionalArray.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>H:/OneDrive/Research/_virtual reality/Unity projects/_textbook/0511MultiDimensionalArray/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/ernst/Desktop/CS4223/Okita/236MultiDimensionalArray/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>H:/OneDrive/Research/_virtual reality/Unity projects/_textbook/0511MultiDimensionalArray/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/ernst/Desktop/CS4223/Okita/236MultiDimensionalArray/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>H:/OneDrive/Research/_virtual reality/Unity projects/_textbook/0511MultiDimensionalArray/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/ernst/Desktop/CS4223/Okita/236MultiDimensionalArray/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>H:/OneDrive/Research/_virtual reality/Unity projects/_textbook/0511MultiDimensionalArray/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/ernst/Desktop/CS4223/Okita/236MultiDimensionalArray/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

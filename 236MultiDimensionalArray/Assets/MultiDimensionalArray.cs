@@ -2,8 +2,8 @@
 using System.Collections;
 using System;
 public class MultiDimensionalArray : MonoBehaviour {
-	public GameObject[] oneDArray;
-	public GameObject[,] mArray;
+	public GameObject[] oneDArray; //ONE-DIMENSIONAL ARRAY
+	public GameObject[,] mArray;  //MULTI-DIMENSIONAL ARRAY
 	// Use this for initialization
 void Start () {
 
@@ -23,12 +23,12 @@ void Start () {
 		};
 	
 	InspectArray( twoDimension );
-        Inspect3DArray(threeDimension);
+    Inspect3DArray(threeDimension);
 }
 
     void InspectArray(GameObject[,] gos)
     {
-
+        Debug.Log("First the two dimensional array");
         int columns = gos.GetLength(0);
         Debug.Log("Columns: " + columns);
 
@@ -45,7 +45,7 @@ void Start () {
     }
     void Inspect3DArray(GameObject[,,] gos)
     {
-
+        Debug.Log("Now the three dimensional array");
         int columns = gos.GetLength(0);
         Debug.Log("Columns: " + columns);
 
