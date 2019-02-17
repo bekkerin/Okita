@@ -4,6 +4,8 @@ using System.Collections;
 public class Scope : MonoBehaviour
 {
 		int MyInt = 1;
+    public string MyName;
+
 
 		void Start ()
 		{

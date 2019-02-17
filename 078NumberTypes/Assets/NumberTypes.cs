@@ -14,7 +14,7 @@ public class NumberTypes : MonoBehaviour {
 		Debug.Log( d ); //1
 		float f = a;// can load int into float if float has not initialized yet
 		Debug.Log( f ); //1
-		int largeInt = 214748361; //21 million
+		int largeInt = 214748361; //21 billion
         Debug.Log( largeInt );
         //int largeInt2 = 214748361000; // 21 billion  Assets/NumberTypes.cs(18,25): error CS0031: Constant value `214748361000' cannot be converted to a `int'
         long largeInt3 = 214748361000L;//need to make it a long
@@ -32,6 +32,11 @@ public class NumberTypes : MonoBehaviour {
 
         //BY THE WAY, NOTICE THAT THE LINE NUMBERS IN THE CONSOLE MESSAGE MATCH THE LINES IN THE CODE.
         // //RIGHT CLICK - PEEK DEFINITION, FIND ALL REFERENCES, OUTLINING
+        float q= 10;
+        float e = 5;
+        float r = 3;
+        Vector3 vec = new Vector3(q,e,r);
+
     }
 
     // Update is called once per frame

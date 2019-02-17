@@ -1,4 +1,4 @@
-﻿//#define TESTING  //if you uncomment, the #if testing section executes. Use it for checking during development, then simply comment TESTING at top when done.
+﻿#define TESTING  //if you uncomment, the #if testing section executes. Use it for checking during development, then simply comment TESTING at top when done.
 
 using System; //provides int, bool, float, double, etc. 
 using UnityEngine; //All resources that deal with specific Unity function calls like moving an object , playing sounds, and particle systems
