@@ -651,7 +651,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2146055620}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd7e71eb668d74033a776c11464bfc8c, type: 3}
+  m_Script: {fileID: 11500000, guid: f00b2be8b87a34b43945ddab31add960, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scores: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -677,15 +677,9 @@ MonoBehaviour:
   - 0
   - 0
   - 0
-  MyGameObjects:
-  - {fileID: 1009578715}
-  - {fileID: 121875413}
-  - {fileID: 1680960987}
-  - {fileID: 376453694}
-  - {fileID: 640416648}
-  - {fileID: 856570572}
-  ArrayLength: 0
-  Primes: 
+  MyGameObjects: []
+  ArrayLength: 6
+  Primes: 010000000300000005000000070000000b0000000d00000011000000
 --- !u!81 &2146055622
 AudioListener:
   m_ObjectHideFlags: 0

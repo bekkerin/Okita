@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-//  THERE ARE THREE TYPES OF JUMP STATEMENTS: RETURN, BREAK, CONTINUE. THIS EXAMPLES ONLY COVERS RETURN. BREAK AND CONTINUE COME ON PAGE 232.
+//  THERE ARE THREE TYPES OF JUMP STATEMENTS: RETURN, BREAK, CONTINUE. THIS EXAMPLES ONLY COVERS RETURN. BREAK AND CONTINUE COME ON PAGE 232.  SO FAR WE HAD VOID FUNCTIONS, NOW WE HAVE THE FUNCTIONS RETURN SOMETHING. 
 
 // THIS SHOWS THAT FUNCTIONS ARE ABLE TO RETURN SOMETHING, LIKE A ZOMBIE
 //THE CAMERA HAS THE RETURNZOMBIE SCRIPT
@@ -10,20 +10,14 @@ using System.Collections;
 // WE NEED TO PUT THE DRAWLINE UNDER BOTH START AND UPDATE, SO THE LINE IS DRAWN FROM THE VERY START(ALTHOUGH ADMITTEDLY, THE FIRST REFRESH IS PRETTY FAST - BUT THERE MAY BE OTHER REASONS WHY WE WANT TO HAVE THE ZOMBIE FOUND FROM THE START).
 public class ReturnZombie : MonoBehaviour
 {
-    int MyAdd(int a, int b) //THIS FUNCTION RETURNS SOMETHING - IT IS NOT VOID
-    {
-        return a + b;
-    }
 
     // Use this for initialization
     void Start()
 	{
-        int b = MyAdd(6, 7); //SEND THE FUNCTION 6 AND 7, GET 13 BACK
-        print(b);//13 SHOWS IN CONSOLE
         Zombie target = GetZombie(); //LIKEWISE, GETZOMBIE RETURNS SOMETHING - A ZOMBIE GAMEOBJECT
         if (target != null) //IF THE FUNCTION REALLY RETURNED SOMETHING
         {
-            //Debug.DrawLine(transform.position, target.transform.position, Color.red, 1f); // DRAW A LINE FROM MYSELF TO THE ZOMBIE CYLINDER.  HAS A START POSITION, AN END POSITION, A COLOR, AND DURATION (AND THREE OTHER OVERLOADS). Color is a property defined in the unityengine class.
+            Debug.DrawLine(transform.position, target.transform.position, Color.red, 1f); // DRAW A LINE FROM MYSELF TO THE ZOMBIE CYLINDER.  HAS A START POSITION, AN END POSITION, A COLOR, AND DURATION (AND THREE OTHER OVERLOADS). Color is a property defined in the unityengine class.
         }
 
     }
@@ -43,6 +37,7 @@ public class ReturnZombie : MonoBehaviour
     // returns a zombie
     Zombie GetZombie()
 	{
+        //THIS IS WHY THIS SCRIPT IS CALLED RETURNZOMBIE
        return (Zombie)GameObject.FindObjectOfType(typeof(Zombie));
 
     }

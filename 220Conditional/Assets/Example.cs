@@ -25,14 +25,24 @@ public class Example : MonoBehaviour
 		int enemyHealth = 10;
 		int myHealth = 1;
 		bool imStronger = myHealth > enemyHealth; // TRUE IF I AM STRONGER
+
+        if (imStronger)
+        {
+            print("I am stronger");
+        }
 		
 		int enemyBullets = 0;
 		int myBullets = 11;
 		bool imArmed = myBullets > enemyBullets; // TRUE IF I HAVE MORE BULLETS
+
+        if (imArmed)
+        {
+            print("I am armed"); //DOES NOT PRINT BECAUSE HE IS NOT ARMED
+        }
 		
 		if (imStronger || imArmed) //IF I AN STRONGER AND I HAVE MORE BULLETS
 		{
-			print("I can win!");
+			print("I am stronger and/or I am armed. I can win!");
 		}
 	}
 	
