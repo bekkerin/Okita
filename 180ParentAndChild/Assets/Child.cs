@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿// in this program, parent is based on MonoBehavior. The child in this script is based on/ extends the parent class. The parent can not call the child ability, but the child can call the parent ability.
+
+using System.Collections;
 using UnityEngine;
 
 public class Child : Parent

@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿// this is just an example of an empty project. we have two functions: start, and update.
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
